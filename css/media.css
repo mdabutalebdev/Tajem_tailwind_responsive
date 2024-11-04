@@ -1,0 +1,504 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 430.98px){
+    /*========== header part start here ===============*/
+    .navbar-nav .nav-item {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        display: inline-block;
+    }
+
+    .navbar-nav .nav-item:hover {
+        color: #00e0d0 !important;
+    }
+
+    /*========== header part End here ===============*/
+
+    /*========== banner part start here ===============*/
+    .banner_overlay {
+        padding-top: 125px;
+        padding-bottom: 125px;
+    }
+    .banner_content h3 {
+        padding: 0 22px;
+        line-height: 40px;
+        font-size: 30px;
+    }
+    
+    .banner_content p {
+        padding: 0 30px;
+        font-size: 12px;
+    }
+    .slick-dots{
+        bottom: -5%;
+    }
+    
+    /*========== banner part ends here ===============*/
+
+    /*========== story part stars here ===============*/
+    .story_content h3 {
+        text-align: center;
+        margin-top: 35px;
+    }
+    .story_content {
+        text-align: center;
+    }
+    /*========== story part Ends here ===============*/
+
+    /*========== service part stars here ===============*/
+    .common_heading p {
+        line-height: 20px;
+    }
+    .service_text h4 {
+        line-height: 20px;
+    }
+    .service_text p {
+        padding:0;
+        font-size: 12px;
+    }
+    /*========== service part Ends here ===============*/
+
+    /*========== Team part stars here ===============*/
+    .team-heading p {
+        font-size: 12px;
+        padding: 15px 20px;
+        line-height: 20px;
+    }
+    .team_member {
+        margin-bottom: 25px;
+    }
+    /*========== Team part Ends here ===============*/
+
+    /*========== Works part Stars here ===============*/
+    .filter_menu ul li button {
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+    .work_img {
+        width: 33.33%;
+        float: left;
+    }
+    .more-btn a {
+        font-size: 14px;
+    }
+    /*========== Works part Ends here ===============*/
+
+    /*========== testimonial part stars here ===============*/
+    .quotes_icon i {
+        font-size: 40px;
+    }
+    .review_text p {
+        font-size: 11px;
+        line-height: 26px;
+        padding: 0 20px;
+    }
+    .testimonial_overlay {
+        padding-top: 80px;
+        padding-bottom: 120px;
+    }
+    /*========== testimonial part Ends here ===============*/
+
+    /*========== contact part stars here ===============*/
+    .sponsor_part h4 {
+        text-align: center;
+        margin-top: 50px;
+    }
+    form div:last-child {
+        text-align: center;
+    }
+    /*========== contact part Ends here ===============*/
+
+   /*========== footer part stars here ===============*/
+   .footer_content {
+    text-align: center;
+}
+
+.footer_content p {
+    padding: 0 10px;
+}
+
+footer h5 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.location {
+    text-align: center;
+}
+
+.adress {
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.nmbr {
+    justify-content: center;
+}
+
+.adress_icon i {
+    text-align: center;
+    padding-right: 0;
+    margin-right: -12px;
+}
+
+.adress_txt p {
+    text-align: center;
+    padding: 0 15px;
+}
+
+.social_icons {
+    justify-content: center;
+}
+
+.link {
+    justify-content: center;
+}
+
+footer .col-md-3 p {
+    margin-top: 15px;
+    font-size: 12px;
+    text-align: center;
+}
+footer .col-md-4 .link a {
+    font-size: 12px;
+    text-align: center;
+}
+.back-to-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+/*========== footer part end here ===============*/
+
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 431px) and (max-width: 575.98px) {
+
+    /*========== header part start here ===============*/
+    .navbar-nav .nav-item {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        display: inline-block;
+    }
+
+    .navbar-nav .nav-item:hover {
+        color: #00e0d0 !important;
+    }
+
+    /*========== header part End here ===============*/
+
+    /*========== banner part start here ===============*/
+    .banner_overlay {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .banner_content h3 {
+        padding: 0 75px;
+        line-height: 40px;
+    }
+
+    .banner_content p {
+        padding: 0px 50px;
+
+    }
+
+    .slick-dots li button {
+        margin-top: -130px;
+    }
+
+    /*========== banner part end here ===============*/
+
+    /*========== story part stars here ===============*/
+    .story_content h3 {
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .story_content {
+        text-align: center;
+    }
+
+    /*========== story part end here ===============*/
+    
+    /*========== service part stars here ===============*/
+    .service_text h4 {
+        font-size: 12px;
+    }
+    .service_text p {
+        padding: 0 30px;
+    }
+    /*========== service part end here ===============*/
+
+    /*========== video part stars here ===============*/
+    .vdo {
+        padding: 150px 0px;
+    }
+
+    /*========== video part end here ===============*/
+
+    /*========== Team part stars here ===============*/
+    .team_member {
+        margin-bottom: 30px;
+    }
+
+    /*========== Team part end here ===============*/
+
+    /*========== work part stars here ===============*/
+    .filter_menu ul li button {
+        font-size: 10px;
+    }
+
+    .work_img {
+        width: 33.33%;
+        float: left;
+    }
+
+    /*========== work part end here ===============*/
+
+    /*========== testimonial part stars here ===============*/
+    .review_text p {
+        padding: 0 50px;
+    }
+
+    /*========== testimonial part end here ===============*/
+
+    /*========== Contact part stars here ===============*/
+    .sponsor_part h4 {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    form div:last-child {
+        text-align: center;
+    }
+
+    /*========== Contact part end here ===============*/
+
+    /*========== footer part stars here ===============*/
+    .footer_content {
+        text-align: center;
+    }
+
+    .footer_content p {
+        padding: 0 10px;
+    }
+
+    footer h5 {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+
+    .location {
+        text-align: center;
+    }
+
+    .adress {
+        justify-content: center;
+        padding: 0 20px;
+    }
+
+    .nmbr {
+        justify-content: center;
+    }
+
+    .adress_icon i {
+        text-align: center;
+        padding-right: 0;
+        margin-right: -12px;
+    }
+
+    .adress_txt p {
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .social_icons {
+        justify-content: center;
+    }
+
+    .link {
+        justify-content: center;
+    }
+
+    footer .col-md-3 p {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .back-to-top {
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
+    }
+
+    /*========== footer part end here ===============*/
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+    /*========== header part start here ===============*/
+    .navbar-nav .nav-item {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        display: inline-block;
+    }
+
+    .navbar-nav .nav-item:hover {
+        color: #00e0d0 !important;
+    }
+
+    /*========== header part End here ===============*/
+
+    /*========== banner part start here ===============*/
+    .banner_overlay {
+        padding-top: 200px;
+        padding-bottom: 180px;
+    }
+    .banner_content p {
+        padding: 0 65px;
+    }
+    .slick-dots{
+        bottom: -5%;
+    }
+    /*========== banner part Ends here ===============*/
+
+    /*========== story part Starts here ===============*/
+    .story_content {
+        margin-top: 30px;
+    }
+    /*========== story part Ends here ===============*/
+
+    /*========== works part Starts here ===============*/
+    .work_img {
+        width: 25%;
+        float: left;
+    }
+    /*========== works part Ends here ===============*/
+
+    /*========== testimonial part Starts here ===============*/
+    .testimonial_overlay {
+        padding-top: 100px;
+        padding-bottom: 125px;
+    }
+    .quotes_icon i {
+        font-size: 45px;
+    }
+    .review_text p {
+        padding: 0 70px;
+    }
+    /*========== testimonial part Ends here ===============*/
+
+    /*========== contact part Starts here ===============*/
+    .sponsor_part{
+        margin-top: 50px;
+    }
+    .sponsor_part h4{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    /*========== contact part Ends here ===============*/
+
+    /*========== footer part Starts here ===============*/
+    footer .col-md-4{
+        margin-top: 35px;
+    }
+    footer h5 {
+        margin-bottom: 20px;
+    }
+    footer .link{
+        justify-content: center;
+    }
+    footer .col-md-3 p {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    /*========== footer part Ends here ===============*/
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*========== header part start here ===============*/
+    .navbar-nav .nav-item {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        display: inline-block;
+    }
+
+    .navbar-nav .nav-item:hover {
+        color: #00e0d0 !important;
+    }
+
+    /*========== header part End here ===============*/
+    .slick-dots {
+        bottom: -5%;
+    }
+
+    .video_content h4 {
+        font-size: 15px;
+    }
+
+    .common_heading p {
+        line-height: 20px;
+    }
+    .service_text h4 {
+        line-height: 20px;
+    }
+    .service_text p {
+        padding: 0 25px;
+    }
+    .team-heading p {
+        line-height: 20px;
+    }
+    .work_img {
+        float: left;
+        width: 25%;
+    }
+    .review_text p {
+        padding: 0 100px;
+    }
+    .footer_content p {
+        padding-right: 50px;
+    }
+    .adress_txt p {
+        padding-right: 45px;
+    }
+    .l6{
+        width: 50%;
+    }
+    footer .col-md-4 .link a {
+        margin-right: 30px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .slick-dots {
+        bottom: -5%;
+    }
+    .l6{
+        width: 50%;
+    }
+    footer .col-md-4 .link a {
+        margin-right: 30px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

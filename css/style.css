@@ -1,0 +1,694 @@
+/* ALL COMMON CSS STARTS HERE  */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+.clr {
+    clear: both;
+}
+
+.overlay {
+    background: linear-gradient(90deg, #09052f 0%, #311d5e 100%);
+    opacity: 0.851;
+}
+
+/* ALL COMMON CSS ENDS HERE  */
+
+/* ================Header part Starts here============   */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-nav .nav-link {
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: #fff;
+    font-weight: 900;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #00e0d0 !important;
+}
+.sticky_header{
+    background: linear-gradient(90deg, #09052f 0%, #311d5e 100%);
+    animation: alamin 1s;
+}
+@keyframes alamin{
+    from{
+    top: -100px;
+    }
+    
+    to{
+    top: 0;
+    }
+}
+/* ================Header part Ends here============   */
+
+/* ================banner part Starts here============   */
+#banner {
+    background: url(../images/Banner_bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner_overlay {
+    padding-top: 230px;
+    padding-bottom: 205px;
+    background: linear-gradient(90deg, #09052f 0%, #311d5e 100%);
+    opacity: 0.85;
+}
+
+.banner_content h3 {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Playfair Display";
+    text-align: center;
+    position: relative;
+}
+
+.banner_content h3::before {
+    content: '';
+    height: 1px;
+    width: 50px;
+    background-color: #00e0d0;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.banner_content p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;
+    padding: 0 165px;
+    margin: 50px 0;
+}
+
+.banner_content a {
+    font-size: 16px;
+    color: #00e0d0;
+    font-weight: 400;
+    font-family: "Hammersmith One";
+    text-align: center;
+    padding: 12px 22px;
+    border: 1px solid #00e0d0;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+
+.banner_content a:hover {
+    background: #00e0d0;
+    color: #311d5e;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    bottom: -60%;
+    padding-right: 25px;
+}
+
+.slick-dots li button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.08);
+    margin-top: 50px;
+    border: 1px solid #00e0d0;
+    transition: 0.4s;
+}
+
+.slick-dots li button:hover {
+    background-color: #00e0d0;
+}
+
+/* ================banner part Ends here============   */
+
+/* ================Story part Starts here============   */
+#story {
+    padding: 70px 0;
+}
+
+.story_content h3 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #413d4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    text-transform: uppercase;
+}
+
+.story_content p {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #413d4b;
+    opacity: 0.75;
+    font-weight: 300;
+    font-family: "Roboto";
+    margin-top: 30px;
+}
+
+.story_content a {
+    font-size: 16px;
+    color: #00e0d0;
+    font-weight: 400;
+    font-family: "Hammersmith One";
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: 12px 22px;
+    border: 1px solid #00e0d0;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+
+.story_content a:hover {
+    color: #fff;
+    background-color: #00e0d0;
+}
+
+/* ================Story part Ends here============   */
+
+/* ================video part Starts here============   */
+#video {
+    background: url(../images/bg2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.vdo {
+    padding: 200px 0;
+}
+
+.video_content h4 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: 35px;
+}
+
+/* ================video part Ends here============   */
+
+/* ================service part Starts here============   */
+#service {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.common_heading h3 {
+    padding-bottom: 15px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #413d4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    text-align: center;
+}
+
+.common_heading p {
+    opacity: 0.749;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #2f2d35;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    text-align: center;
+    position: relative;
+}
+
+.common_heading p::before {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #c6c4c9;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -18px;
+}
+
+.all_services {
+    margin-top: 100px;
+}
+
+.service_text h4 {
+    margin-top: 35px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #413d4b;
+    font-weight: 900;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.service_text p {
+    padding: 0 40px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #333333;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.service_item {
+    padding-bottom: 70px;
+}
+
+/* ================service part Ends here============   */
+
+/* ================team part Starts here============   */
+#team {
+    background: url(../images/bg3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.team_overlay {
+    padding: 65px 0;
+}
+
+.team-heading h3 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    text-align: center;
+
+}
+
+.team-heading p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #f9f9f9;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+}
+
+.team-heading p::after {
+    content: '';
+    height: 2px;
+    width: 50px;
+    background-color: #655c80;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+}
+
+.team_members {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.member_text {
+    background: transparent;
+    padding: 24px 0;
+    border: 1px solid #7a758f;
+}
+
+.member_text h5 {
+    padding-bottom: 12px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.member_text h6 {
+    opacity: 0.702;
+    font-size: 13px;
+    color: #fafafa;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.team_btn_text p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #f3f3f3;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team_btn_text a {
+    font-size: 16px;
+    color: #00e0d0;
+    font-weight: 400;
+    font-family: "Hammersmith One";
+    text-align: center;
+    padding: 12px 22px;
+    border: 1px solid #00e0d0;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+
+.team_btn_text a:hover {
+    background: #00e0d0;
+    color: #311d5e;
+}
+
+/* ================team part Ends here============   */
+
+/* ================Work part Starts here============   */
+#work {
+    padding: 70px 0;
+}
+
+.filter_menu ul li button {
+    padding: 9px;
+    border: 2px solid #dddddd;
+    background: transparent;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #413d4b;
+    font-family: "Myriad Pro";
+    text-transform: capitalize;
+    transition: 0.4s;
+
+}
+
+.filter_menu ul li button:hover {
+    background: #dddddd;
+}
+
+.work_img {
+    float: left;
+    width: 16.66%;
+}
+
+.more-btn {
+    padding-top: 25px;
+}
+
+.more-btn a {
+    font-size: 16px;
+    color: #00e0d0;
+    font-weight: 400;
+    font-family: "Hammersmith One";
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: 12px 22px;
+    border: 1px solid #00e0d0;
+    border-radius: 3px;
+    transition: 0.4s;
+
+}
+
+.more-btn a:hover {
+    color: #fff;
+    background-color: #00e0d0;
+}
+
+/* ================Work part Ends here============   */
+
+/* ================testimonial part Starts here============   */
+#testimonial {
+    background: url(../images/bg4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.testimonial_overlay {
+    padding-top: 115px;
+    padding-bottom: 135px;
+}
+
+.quotes_icon {
+    margin-bottom: 50px;
+}
+
+.quotes_icon i {
+    color: #fff;
+    font-size: 50px;
+}
+
+.review_text p {
+    opacity: 0.851;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    text-align: center;
+    margin-bottom: 42px;
+    padding: 0 185px;
+}
+
+.review_text h5 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.review_text h6 {
+    opacity: 0.702;
+    font-size: 13px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+#testimonial .slick-dots {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    bottom: 0%;
+    padding-left: 25px;
+}
+
+#testimonial .slick-dots li button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.08);
+    margin-top: 50px;
+    border: 1px solid #00e0d0;
+    transition: 0.4s;
+}
+
+#testimonial .slick-dots li button:hover {
+    background-color: #00e0d0;
+}
+
+/* ================testimonial part Ends here============   */
+
+/* ================contact part Starts here============   */
+#contact {
+    padding: 70px 0;
+}
+
+.form_part h4 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #413d4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+}
+
+.form button {
+    border: 1px solid #00e0d0 !important;
+    border-radius: 1px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #00e0d0;
+    font-weight: 400;
+    font-family: "Hammersmith One";
+    text-align: center;
+}
+
+.sponsor_part h4 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #413d4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+}
+.sponsor_padding{
+    padding: 28px 0;
+    text-align: center;
+}
+
+/* ================contact part Ends here============   */
+
+/* ================footer part Starts here============   */
+footer{
+    background: url(../images/bg5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer_overlay{
+    padding: 70px 0;
+}
+footer h5{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Roboto";
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+.footer_content p{   
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto";
+    margin-top: 26px;
+    padding-right: 85px;
+}
+.adress i{
+    color: #fff;
+    padding-right: 10px;
+}
+.adress_txt p{
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto";
+    padding-right: 75px;
+
+}
+.nmbr{
+    padding-top: 25px;
+}
+.nmbr i{
+    color: #fff;
+    padding-right: 10px;
+}
+footer button{
+    background: #a098b2;
+    border: 0px;
+}
+.social_icons{
+    margin-top: 27px;
+}
+.social_icons .icon{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background:  #09052f;
+    border: 1px solid #fff;
+    padding-top: 5px;
+}
+.icon i{
+    color: #FFF;
+    text-align: center;
+}
+footer .col-md-3 p{
+        
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: right;
+}
+
+footer .col-md-4 .link a{
+    margin-right: 35px;
+}
+footer .col-md-4 .link a{
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+.upper_gap{
+    margin-top: 70px;
+}
+footer .col-md-4 input.form-control::placeholder{
+    color: rgba(255, 255, 255, 0.705);
+}
+.back-to-top{
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    cursor: pointer;
+}
+.back-to-top i{
+   font-size: 40px;
+   color: rgba(172, 255, 47, 0.5);
+}
+.back-to-top i:hover{
+    color: yellow;
+}
+/* ================footer part Ends here============   */
